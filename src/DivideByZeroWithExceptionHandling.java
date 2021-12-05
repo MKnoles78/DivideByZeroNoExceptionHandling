@@ -20,6 +20,7 @@ public class DivideByZeroWithExceptionHandling {
 				// read two numbers and calculate quotient
 				System.out.print("Please enter numerator: ");
 				int numerator = scanner.nextInt();
+				System.out.print("Please enter denominator: ");
 				int denominator = scanner.nextInt();
 
 				int result = quotient(numerator, denominator);
