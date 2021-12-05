@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class DivideByZeroWithExceptionHandling {
 
 	// demonstrates throwing an exception when a divide by zero occurs
-	public static int quotient(int numerator, int denominator) {
+	public static int quotient(int numerator, int denominator) throws ArithmeticException {
 		return numerator / denominator; // possible division by zero
 	}
 
